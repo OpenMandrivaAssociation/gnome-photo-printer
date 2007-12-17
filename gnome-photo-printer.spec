@@ -14,7 +14,6 @@ Source3:	gpp-16.png
 URL:		http://www.fogman.de/?GnomePhotoPrinter
 License:	GPL
 Group:		Graphical desktop/GNOME
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	ImageMagick
 BuildRequires:	libgnomeui2-devel libglade2.0-devel
 BuildRequires:	libgnomeprint-devel libgnomeprintui-devel
