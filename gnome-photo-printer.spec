@@ -11,6 +11,7 @@ Source:		gpp-%{version}.tar.bz2
 Source1:	gpp-48.png
 Source2:	gpp-32.png
 Source3:	gpp-16.png
+Patch0:		gpp-0.7.0-link.patch
 URL:		http://www.fogman.de/?GnomePhotoPrinter
 License:	GPL
 Group:		Graphical desktop/GNOME
@@ -29,8 +30,11 @@ and see your pictures printed.
 
 %prep
 %setup -q -n gpp-%version
+%patch0 -p0 -b .link
+mkdir m4
 
 %build
+autoreconf -fi
 %configure2_5x
 %make
 										
