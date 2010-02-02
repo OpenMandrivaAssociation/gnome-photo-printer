@@ -21,6 +21,7 @@ BuildRequires:	libgnomeui2-devel libglade2.0-devel
 BuildRequires:	libgnomeprint-devel libgnomeprintui-devel
 BuildRequires:	libgnome-vfs2-devel
 BuildRequires:	desktop-file-utils
+BuildRequires:	intltool
 
 %description
 Gnome Photo Printer is intended for printing photos in an easy way.  Just
