@@ -1,0 +1,20 @@
+--- configure.ac.link	2010-02-02 15:26:48.000000000 +0100
++++ configure.ac	2010-02-02 15:27:17.000000000 +0100
+@@ -52,7 +52,7 @@
+ EXTRA_GNOME_LIBS=`pkg-config --libs $gnome_modules`
+ 
+ CFLAGS="$CFLAGS $EXTRA_GNOME_CFLAGS -g -O0 -Wall"
+-LDFLAGS="$LDFLAGS $EXTRA_GNOME_LIBS"
++LIBS="$LIBS $EXTRA_GNOME_LIBS"
+ 
+ dnl These should be $pkgdatadir & pkglibdir, but that would make the
+ dnl last part 'gpp' rather thann 'gnome-photo-printer'
+@@ -61,7 +61,7 @@
+ 
+ AC_SUBST(CFLAGS)
+ AC_SUBST(CPPFLAGS)
+-AC_SUBST(LDFLAGS)
++AC_SUBST(LIBS)
+ AC_SUBST(GPP_DATADIR)
+ AC_SUBST(GPP_LIBDIR)
+ 
