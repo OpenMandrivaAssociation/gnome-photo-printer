@@ -98,3 +98,49 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.7.0-5mdv2011.0
++ Revision: 610941
+- rebuild
+
+* Tue Feb 02 2010 Funda Wang <fwang@mandriva.org> 0.7.0-4mdv2010.1
++ Revision: 499629
+- BR intltool
+- fix linkage
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - rebuild
+    - drop old menu
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.7.0-1mdv2008.1
++ Revision: 136450
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Jan 28 2007 Jérôme Soyer <saispo@mandriva.org> 0.7.0-1mdv2007.0
++ Revision: 114719
+- New release 0.7.0
+
+* Wed Jan 03 2007 Jérôme Soyer <saispo@mandriva.org> 0.6.7-1mdv2007.1
++ Revision: 103754
+- New release 0.6.7
+- Import gnome-photo-printer
+
+* Thu Sep 14 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.6.5-2mdv2007.0
+- XDG
+
+* Sun Aug 28 2005 Austin Acton <austin@mandriva.org> 0.6.5-1mdk
+- initial package
+
