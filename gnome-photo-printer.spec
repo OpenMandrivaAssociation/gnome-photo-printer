@@ -12,7 +12,7 @@ Source1:	gpp-48.png
 Source2:	gpp-32.png
 Source3:	gpp-16.png
 Patch0:		gpp-0.7.0-link.patch
-URL:		http://www.fogman.de/?GnomePhotoPrinter
+URL:		https://www.fogman.de/?GnomePhotoPrinter
 License:	GPL
 Group:		Graphical desktop/GNOME
 BuildRoot:	%{_tmppath}/%{name}-buildroot
