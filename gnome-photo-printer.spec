@@ -16,6 +16,11 @@ URL:		https://www.fogman.de/?GnomePhotoPrinter
 License:	GPL
 Group:		Graphical desktop/GNOME
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	imagemagick
 BuildRequires:	libgnomeui2-devel libglade2.0-devel
 BuildRequires:	libgnomeprint-devel libgnomeprintui-devel
