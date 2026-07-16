@@ -1,6 +1,6 @@
 %define name	gnome-photo-printer
 %define version	0.7.0
-%define release %mkrel 5
+%define release 6
 
 Name: 	 	%{name}
 Summary: 	Simple Photo Printer for Gnome
@@ -134,16 +134,16 @@ rm -rf $RPM_BUILD_ROOT
     - kill re-definition of %%buildroot on Pixel's request
 
 
-* Sun Jan 28 2007 Jérôme Soyer <saispo@mandriva.org> 0.7.0-1mdv2007.0
+* Sun Jan 28 2007 JÃ©rÃ´me Soyer <saispo@mandriva.org> 0.7.0-1mdv2007.0
 + Revision: 114719
 - New release 0.7.0
 
-* Wed Jan 03 2007 Jérôme Soyer <saispo@mandriva.org> 0.6.7-1mdv2007.1
+* Wed Jan 03 2007 JÃ©rÃ´me Soyer <saispo@mandriva.org> 0.6.7-1mdv2007.1
 + Revision: 103754
 - New release 0.6.7
 - Import gnome-photo-printer
 
-* Thu Sep 14 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.6.5-2mdv2007.0
+* Thu Sep 14 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.6.5-2mdv2007.0
 - XDG
 
 * Sun Aug 28 2005 Austin Acton <austin@mandriva.org> 0.6.5-1mdk
